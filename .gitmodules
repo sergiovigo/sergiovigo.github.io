@@ -1,4 +1,4 @@
 [submodule "online-cv"]
 	path = online-cv
-	url = git://github.com/sergiovigosergiovigo.github.io.git
+	url = git:github.com/sergiovigo/online-cv.git
 
