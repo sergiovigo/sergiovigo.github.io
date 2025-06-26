@@ -18,3 +18,16 @@ Las dependencias del proyecto se gestionan mediante Bundler y están declaradas 
 bundle install
 ```
 
+
+## Pruebas
+
+El repositorio incluye un script de comprobación sencilla llamado `test_redirect.sh` que verifica que `index.html` redirige correctamente a `/online-cv/`.
+
+Para ejecutarlo:
+
+```bash
+./test_redirect.sh
+```
+
+El script mostrará `PASS` si la URL de la redirección es correcta o `FAIL` en caso contrario.
+
