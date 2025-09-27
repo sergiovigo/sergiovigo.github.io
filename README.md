@@ -2,6 +2,8 @@
 
 Este repositorio aloja la página personal publicada mediante GitHub Pages. Su objetivo principal es redirigir a la sección [`/online-cv`](./online-cv), donde se encuentra el currículum en línea.
 
+Tras clonar el repositorio debes ejecutar `git submodule update --init --recursive` para descargar la carpeta `online-cv`.
+
 ## Clonación e inicialización del submódulo
 
 ```bash
@@ -9,6 +11,7 @@ git clone <repo>
 cd sergiovigo.github.io
 git submodule update --init --recursive
 ```
+GitHub Pages no podrá generar correctamente el sitio si este submódulo no se ha descargado, por lo que el CV aparecerá vacío o la publicación fallará.
 
 ## Dependencias
 
